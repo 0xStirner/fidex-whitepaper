@@ -1,0 +1,780 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FIÐEX DAO – Whitepaper</title>
+  <!-- Google Fonts import: Cinzel for titles, Source Serif Pro for body text -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Link to the external CSS stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Main container with narrow margins for compact layout -->
+  <div class="container">
+    
+    <!-- Section 1: Executive Summary -->
+  <section class="section" id="section-1">
+  <h1 class="section-title">1. Executive Summary <span class="emoji">🚀</span></h1>
+
+  <p class="paragraph">
+    FIÐEX DAO è un'iniziativa innovativa nata per fornire una soluzione concreta, trasparente e affidabile ai rischi associati alla finanza decentralizzata (DeFi).
+    Il nostro obiettivo è proteggere e valorizzare il patrimonio digitale degli utenti attraverso una struttura assicurativa decentralizzata, accessibile e verificabile on-chain.
+  </p>
+
+  <p class="paragraph">
+    Guidati da un team di esperti con profonde competenze finanziarie, giuridiche e tecnologiche, ci proponiamo di costruire una piattaforma solida e democratica,
+    in cui i membri della community possano partecipare attivamente alla governance e beneficiare direttamente della crescita collettiva.
+    La nostra missione rispecchia pienamente i principi del manifesto della Worldcoin Foundation, mirando a creare un ecosistema sicuro e trasparente,
+    basato sull'identità verificata tramite WorldID.
+  </p>
+
+  <div class="highlight-box">
+    <p><strong>Token duale:</strong> Il sistema FIÐEX prevede due token distinti per funzione: $FXS (governance e patrimonio) e $FDX (engagement e visibilità).</p>
+  </div>
+
+<figure class="whitepaper-graphic">
+  <img src="tokens.png" alt="Differenze tra FXS e FDX" />
+  <figcaption class="text-sm text-center mt-2 text-muted">
+    Differenze principali tra i token $FXS e $FDX nel protocollo FIÐEX DAO
+  </figcaption>
+</figure>
+
+  <p class="paragraph">
+    La governance della DAO, trasparente e verificata, sarà gestita da una Community Interest Company (CIC) nel Regno Unito, denominata <strong>Lighthouse</strong>,
+    che fungerà da entità indipendente per garantire compliance normativa, rappresentanza legale e tutela degli interessi collettivi.
+    Il Regno Unito sta diventando capitale degli investimenti Web3 grazie al suo regime legislativo favorevole.
+  </p>
+
+  <p class="paragraph">
+    FIÐEX DAO è più di una semplice organizzazione decentralizzata: rappresenta una visione condivisa di finanza democratica, solidale e responsabile,
+    destinata a evolversi e crescere grazie al contributo di ogni singolo membro verificato.
+    Attraverso una strategia di investimento conservativa, l'utilizzo di tecnologie avanzate e un rigoroso controllo giuridico,
+    ci impegniamo a realizzare un modello sostenibile e vantaggioso per l’intera comunità.
+  </p>
+</section>
+    <!-- Additional sections would follow a similar structure, e.g., section-2, section-3, etc. -->
+    <!-- Section 2: Background e Motivazione -->
+<section class="section" id="section-2">
+  <h1 class="section-title">2. Background e Motivazione <span class="emoji">🌍</span></h1>
+
+  <p class="paragraph">
+    Negli ultimi anni, la finanza decentralizzata (DeFi) ha radicalmente ridefinito il modo in cui individui e istituzioni interagiscono con il denaro e gli asset digitali.
+    Nonostante le enormi potenzialità di crescita e inclusione finanziaria, questo settore emergente è ancora afflitto da significativi rischi operativi, giuridici e tecnologici,
+    che minacciano costantemente la sicurezza del patrimonio degli utenti.
+  </p>
+
+  <p class="paragraph">Tra le principali criticità figurano:</p>
+ <div class="list-box">
+  <ul>
+    <li><strong>Vulnerabilità tecnologiche</strong>: hacking, exploit degli smart contract, perdita accidentale delle chiavi private.</li>
+    <li><strong>Opacità operativa</strong>: mancanza di trasparenza nella governance di molti protocolli DeFi e ambiguità nella gestione dei fondi raccolti.</li>
+    <li><strong>Insufficiente tutela legale</strong>: carenze normative e mancanza di un quadro giuridico chiaro in molte giurisdizioni, che espongono utenti e operatori a rischi significativi.</li>
+  </ul>
+</div>
+  <p class="paragraph">
+    FIÐEX DAO nasce come risposta concreta e strutturata a queste sfide, proponendo una piattaforma assicurativa decentralizzata, chiara e trasparente,
+    in grado di proteggere e valorizzare il patrimonio digitale degli utenti e assicurare una partecipazione democratica alla governance del protocollo.
+  </p>
+
+  <p class="paragraph">
+    Il nostro progetto è ispirato dai principi fondamentali della Worldcoin Foundation, che sostiene la necessità di creare un ecosistema finanziario equo e sicuro,
+    fondato su identità umane verificate tramite tecnologia WorldID.
+    In questo scenario, FIÐEX DAO mira a rappresentare un punto di riferimento e uno standard operativo per la sicurezza e la sostenibilità nella DeFi,
+    in cui ogni partecipante è identificabile in modo anonimo, tutelato e responsabile.
+  </p>
+
+  <p class="paragraph">
+    Crediamo fermamente che il futuro della finanza debba essere democratico e accessibile,
+    superando l’attuale paradigma elitario in cui pochi attori istituzionali controllano le risorse e le decisioni strategiche. Superando i limiti di accesso ormai obsoleti del paradigma giuridico tradizionale.
+    La nostra visione prevede un ambiente in cui la proprietà, la governance e la gestione del patrimonio siano distribuite equamente tra i membri,
+    che condividono interessi comuni e collaborano attivamente per lo sviluppo della comunità.
+  </p>
+
+  <p class="paragraph">Per realizzare tale ambiziosa visione, FIÐEX DAO si basa su tre pilastri fondamentali:</p>
+<div class="list-box">
+  <ol>
+    <li><strong>Trasparenza assoluta</strong>: tutte le operazioni e decisioni saranno tracciabili on-chain, garantendo totale auditabilità e fiducia by design.</li>
+    <li><strong>Responsabilità giuridica</strong>: grazie alla costituzione della Community Interest Company (CIC) Lighthouse nel Regno Unito,
+      il protocollo sarà conforme agli standard internazionali e supervisionato da un'entità indipendente e legalmente riconosciuta.</li>
+    <li><strong>Coinvolgimento attivo della community</strong>: ogni membro della DAO partecipa in modo attivo e responsabile alla governance e alla crescita del progetto,
+      promuovendo un modello partecipativo e inclusivo.</li>
+    <li><strong>Arbitrato on-chain per la risoluzione delle controversie</strong>: Utilizzo dei servizi escrow e curation di Kleros.</li>
+  </ol>
+</div>
+  <p class="paragraph">
+    Attraverso questi principi, FIÐEX DAO intende definire un nuovo standard operativo per la DeFi,
+    risolvendo pragmaticamente le attuali criticità e offrendo agli utenti strumenti concreti per la tutela e la valorizzazione del proprio patrimonio digitale.
+  </p>
+</section>
+
+<!-- Section 3: Visione, Missione, Valori -->
+<section class="section" id="section-3">
+  <h1 class="section-title">3.  Visione, Missione, Valori <span class="emoji">🏛️</span></h1>
+
+  <!-- Visione -->
+  <h2 class="section-subtitle">🔭 Visione</h2>
+  <p class="paragraph">
+    FIÐEX DAO mira a diventare il principale protocollo assicurativo decentralizzato nel panorama De-fi oltre che il primo nella Worldchain. Lo faremo distinguendoci per trasparenza, affidabilità e accessibilità.
+    La nostra visione è quella di costruire una infrastruttura pubblica, sicura e democratica, fondata su identità umane verificate,
+    che tuteli concretamente il patrimonio digitale degli utenti e promuova una partecipazione equa e responsabile alla governance. Coinvolgendo la comunity, partendo da giovani studenti che hanno idee da mettere in campo, condivendo saperi e conoscenze, per costruire un futuro migliore per tutti. 
+  </p>
+  <p class="paragraph">
+    Vogliamo evolvere il concetto stesso di DeFi, passando da una finanza spesso percepita come rischiosa e incontrollata,
+    ad una gestione collettiva, professionale e istituzionalmente solida,
+    offrendo un modello che permetta ai partecipanti di sviluppare liberamente le proprie idee e proteggere in maniera efficace i loro asset digitali.
+  </p>
+
+  <!-- Missione -->
+  <h2 class="section-subtitle">🎯 Missione</h2>
+  <p class="paragraph">
+    La nostra missione è quella di offrire protezione reale e verificabile agli utenti della finanza decentralizzata,
+    custodendo il capitale digitale, l'identità e la fiducia della nostra community attraverso:
+  </p>
+
+  <div class="list-box">
+    <ul>
+      <li>Una piattaforma decentralizzata (DAPP) per la gestione efficace e trasparente dei servizi assicurativi e della governance.</li>
+      <li>Un sistema dual-token rigorosamente progettato per assicurare partecipazione, stabilità patrimoniale e visibilità promozionale.</li>
+      <li>Una struttura giuridica conforme e istituzionale (C.I.C. – Community Interest Company), che garantisca compliance, rappresentanza legale e tutela continua degli interessi della DAO.</li>
+    </ul>
+  </div>
+
+  <p class="paragraph">
+    FIÐEX DAO vuole rappresentare la concretizzazione operativa dei principi espressi dalla Worldcoin Foundation,
+    creando un ambiente finanziario democratico, sicuro ed equo, guidato da identità umane verificate tramite WorldID.
+  </p>
+
+  <!-- Valori -->
+  <h2 class="section-subtitle">🛡️ Valori Fondamentali</h2>
+  <p class="paragraph">
+    I valori di FIÐEX DAO definiscono l'essenza stessa del nostro progetto, guidando ogni decisione e interazione all’interno e all’esterno della nostra community:
+  </p>
+
+  <div class="list-box">
+    <ul>
+      <li><strong>Solidarietà</strong>: promuoviamo attivamente la collaborazione tra membri, sostenendo una comunità coesa in cui il successo individuale è legato indissolubilmente al benessere collettivo.</li>
+      <li><strong>Trasparenza assoluta</strong>: ogni operazione, decisione e movimento finanziario è registrato e verificabile on-chain, garantendo fiducia, sicurezza e controllo totale ai membri della DAO.</li>
+      <li><strong>Buona fede e integrità</strong>: tutte le attività vengono condotte con la massima correttezza e serietà, creando un clima di fiducia reciproca e affidabilità istituzionale.</li>
+      <li><strong>Professionalità</strong>: il nostro team mette a disposizione competenze finanziarie, giuridiche e tecnologiche di alto livello, impegnandosi costantemente per garantire elevati standard operativi e tecnici.</li>
+      <li><strong>Innovazione responsabile</strong>: crediamo in un progresso tecnologico orientato sempre al beneficio collettivo e alla protezione concreta degli utenti, valutando attentamente rischi e benefici di ogni soluzione adottata.</li>
+    </ul>
+  </div>
+
+  <p class="paragraph">
+    Questi principi rappresentano il nostro impegno e la nostra promessa ai membri della DAO:
+    FIÐEX non è solo un protocollo tecnologico, ma una comunità solida, democratica e responsabile.
+    
+  </p>
+</section>
+
+
+<!-- Section 4: Team e Competenze -->
+<section class="section" id="section-4">
+  <h1 class="section-title">4. Team e Competenze <span class="emoji">💼</span></h1>
+
+  <p class="paragraph">
+    La forza e la credibilità di FIÐEX DAO risiedono nella professionalità, competenza e integrità delle persone che compongono il nostro team fondatore. Unendo esperti altamente qualificati in ambiti complementari, FIÐEX DAO garantisce una governance solida, una gestione finanziaria responsabile e una conformità legale rigorosa, che rappresentano elementi essenziali per il successo e la sostenibilità a lungo termine del progetto.
+  </p>
+
+  <!-- Team Tecnologico -->
+  <h2 class="section-subtitle">🧑‍💻 Team Tecnologico</h2>
+  <p class="paragraph">
+    Il nostro team tecnico è composto da sviluppatori blockchain senior, ingegneri software e architetti di smart contract, con una vasta esperienza nella progettazione e sviluppo di infrastrutture DeFi e Web3. I membri del team tecnico vantano esperienze dirette su progetti di rilievo e sono responsabili per:
+  </p>
+  <div class="list-box">
+    <ul>
+      <li>La progettazione, sviluppo e gestione della piattaforma DAPP.</li>
+      <li>La creazione e audit degli smart contract, in particolare del meccanismo RAMM per la gestione della private pool.</li>
+      <li>La sicurezza informatica e la gestione proattiva dei rischi tecnologici.</li>
+    </ul>
+  </div>
+
+  <!-- Team Finanziario -->
+  <h2 class="section-subtitle">📊 Team Finanziario</h2>
+  <p class="paragraph">
+    La gestione finanziaria di FIÐEX DAO è affidata a professionisti del settore, esperti nella gestione patrimoniale, nel trading quantitativo, nella gestione del rischio e nella compliance finanziaria.
+  </p>
+  <div class="list-box">
+    <ul>
+      <li>Gestire il capitale della DAO in modo prudente ed efficace, rispettando obiettivi di rendimento realistici e sostenibili.</li>
+      <li>Selezionare e monitorare protocolli DeFi sicuri, con elevati standard di audit e trasparenza.</li>
+      <li>Eseguire analisi quantitative approfondite per ottimizzare la performance economica del fondo nel rispetto del principio della conservazione del capitale.</li>
+    </ul>
+  </div>
+
+  <!-- Team Legale -->
+  <h2 class="section-subtitle">⚖️ Team Legale</h2>
+  <p class="paragraph">
+    La compliance normativa e la tutela giuridica rappresentano un elemento distintivo di FIÐEX DAO. Il nostro team legale è composto da giuristi specializzati nel diritto societario, diritto finanziario, compliance blockchain e strutture giuridiche internazionali innovative.
+  </p>
+  <div class="list-box">
+    <ul>
+      <li>Assicurano la piena conformità del progetto alla normativa vigente, nazionale ed internazionale.</li>
+      <li>Gestiscono la costituzione e supervisione della Community Interest Company (CIC) Lighthouse, garantendo la legittimità e tutela del progetto.</li>
+      <li>Curano la redazione dei documenti contrattuali e l'applicazione dei protocolli di governance trasparenti, ispirati a modelli societari consolidati.</li>
+    </ul>
+  </div>
+
+  <!-- Team Comunicazione -->
+  <h2 class="section-subtitle">📢 Team Comunicazione e Community Engagement</h2>
+  <p class="paragraph">
+    La comunicazione trasparente e la costruzione attiva della community sono vitali per FIÐEX DAO. Il nostro team dedicato si concentra su:
+  </p>
+  <div class="list-box">
+    <ul>
+      <li>Gestire efficacemente i canali ufficiali della DAO (X, Discord, Telegram), garantendo comunicazione tempestiva, chiara e continua con tutti i membri della community.</li>
+      <li>Promuovere attivamente iniziative di engagement, eventi di formazione e momenti di interazione, per facilitare il coinvolgimento dei membri e la diffusione dei valori del progetto.</li>
+      <li>Gestire campagne promozionali e di awareness tramite il token secondario ($FDX), incrementando la visibilità e la partecipazione al progetto.</li>
+    </ul>
+  </div>
+
+  <!-- Canali Ufficiali -->
+  <h2 class="section-subtitle">🌐 Canali Ufficiali di Comunicazione</h2>
+  <p class="paragraph">
+    FIÐEX DAO intende mantenere un dialogo aperto e costante con la community, garantendo piena accessibilità e disponibilità informativa. I principali canali ufficiali includono:
+  </p>
+  <div class="list-box">
+    <ul>
+      <li><strong>X (Twitter)</strong>: aggiornamenti rapidi, annunci strategici e comunicazione ufficiale.</li>
+      <li><strong>Discord</strong>: gestione interattiva della community, supporto in tempo reale e approfondimenti tecnici.</li>
+      <li><strong>Telegram</strong>: aggiornamenti veloci, supporto utenti e discussione diretta con i membri del team.</li>
+    </ul>
+  </div>
+
+  <p class="paragraph">
+    La combinazione di queste competenze, unite alla professionalità, serietà e trasparenza di ogni membro del team,
+    garantisce la capacità di FIÐEX DAO di operare in maniera solida, responsabile e innovativa,
+    mantenendo sempre al centro gli interessi e la sicurezza della nostra community.
+  </p>
+</section>
+
+<!-- Section 5: Architettura del Protocollo -->
+<section class="section" id="section-5">
+  <h1 class="section-title">5. Architettura del Protocollo FIÐEX <span class="emoji">🧱</span></h1>
+
+  <p class="paragraph">
+    Il protocollo FIÐEX DAO è stato progettato per offrire una piattaforma decentralizzata robusta, trasparente e facilmente utilizzabile, che combina tecnologie innovative con una struttura giuridica e finanziaria solida. L’architettura del protocollo si articola in due componenti principali: un sistema dual-token e un meccanismo di gestione patrimoniale decentralizzato (RAMM - Rebalancing Automated Market Maker).
+  </p>
+
+  <!-- 5.1 Dual Token System -->
+  <h2 class="section-subtitle">🔄 5.1 Dual Token System</h2>
+  <p class="paragraph">
+    Il sistema dual-token di FIÐEX garantisce chiarezza e trasparenza, separando nettamente la partecipazione patrimoniale e operativa dal coinvolgimento promozionale e di community engagement.
+  </p>
+
+  <h3 class="section-subsub">💎 Token principale: $FXS</h3>
+  <p class="paragraph">
+    Il token $FXS è il cuore del protocollo, progettato per rappresentare direttamente la partecipazione patrimoniale dei membri al fondo della DAO.
+  </p>
+  <div class="list-box">
+    <ul>
+      <li><strong>Partecipazione diretta al capitale</strong>: Ogni token corrisponde esattamente a una quota proporzionale del fondo netto disponibile (1:1).</li>
+      <li><strong>Governance democratica</strong>: conferisce ai titolari diritti esclusivi di voto, riservati agli utenti verificati tramite WorldID.</li>
+      <li><strong>Accesso privilegiato ai servizi assicurativi</strong>: i detentori di $FXS possono attivare coperture assicurative personalizzate per proteggere i loro asset digitali.</li>
+      <li><strong>Valore intrinseco crescente</strong>: il valore del token cresce passivamente e proporzionalmente con l’incremento del fondo stesso.</li>
+    </ul>
+  </div>
+
+  <h3 class="section-subsub">🚀 Token secondario: $FDX</h3>
+  <p class="paragraph">
+    Il token $FDX svolge un ruolo principalmente promozionale, di community engagement e di facilitazione delle transazioni quotidiane. Lanciato pubblicamente sulla piattaforma Pump.fun, è uno strumento flessibile e adatto a scopi di visibilità e diffusione del protocollo.
+  </p>
+  <div class="list-box">
+    <ul>
+      <li><strong>Engagement e marketing</strong>: utilizzo attivo per campagne promozionali e iniziative di sensibilizzazione della community.</li>
+      <li><strong>Accesso a benefici secondari</strong>: utilizzo come scontistica per servizi specifici, burn per vantaggi operativi, e partecipazione a iniziative esclusive della community.</li>
+      <li><strong>Nessun diritto di governance</strong>: non conferisce alcun diritto decisionale o governance, differenziandosi nettamente dal token principale $FXS.</li>
+    </ul>
+  </div>
+
+  <!-- 5.2 RAMM -->
+  <h2 class="section-subtitle">⚙️ 5.2 Private Pool RAMM (Rebalancing Automated Market Maker)</h2>
+  <p class="paragraph">
+    Il protocollo FIÐEX utilizza un modello di private pool RAMM per garantire una gestione efficiente e trasparente delle riserve del fondo.
+  </p>
+  <div class="list-box">
+    <ul>
+      <li><strong>Mint e Burn dinamici</strong>: i membri possono acquisire ($mint) e redimere ($burn) il token $FXS con un rapporto sempre proporzionale 1:1 rispetto al fondo, aggiustato dinamicamente.</li>
+      <li><strong>Ribilanciamento automatizzato</strong>: il pool RAMM ricalibra automaticamente le riserve in risposta a ogni nuovo mint o burn.</li>
+      <li><strong>Liquid Exit e Exit Queue</strong>: opzioni di liquidazione immediata (con penalità proporzionale) e sistema ordinato di gestione delle richieste di uscita.</li>
+    </ul>
+  </div>
+
+  <!-- 5.3 Vesting -->
+  <h2 class="section-subtitle">📆 5.3 Gestione del Vesting</h2>
+  <p class="paragraph">
+    Al fine di incentivare la partecipazione a lungo termine e stabilizzare il valore del protocollo, FIÐEX prevede una struttura di vesting rigorosa:
+  </p>
+  <div class="list-box">
+    <ul>
+      <li><strong>Cliff iniziale di 3 mesi</strong>: prevenzione di volatilità e speculazione iniziale.</li>
+      <li><strong>Rilascio lineare su 24 mesi</strong>: distribuzione graduale del token.</li>
+      <li><strong>Smart contract dedicato (OpenZeppelin VestingWallet)</strong>: gestione interamente on-chain per trasparenza e sicurezza.</li>
+    </ul>
+  </div>
+
+  <!-- 5.4 DAPP -->
+  <h2 class="section-subtitle">🖥️ 5.4 Piattaforma Decentralizzata (DAPP)</h2>
+  <p class="paragraph">
+    Il protocollo FIÐEX include una DAPP intuitiva e funzionale, progettata per semplificare la partecipazione e l’utilizzo della piattaforma:
+  </p>
+  <div class="list-box">
+    <ul>
+      <li><strong>Dashboard personale Web3</strong>: monitoraggio investimento, stato coperture, votazioni DAO.</li>
+      <li><strong>Gestione completa delle coperture assicurative</strong>: selezione, personalizzazione e attivazione diretta.</li>
+      <li><strong>API e SDK pubbliche</strong>: integrazioni esterne e sviluppo soluzioni complementari.</li>
+    </ul>
+  </div>
+
+  <p class="paragraph">
+    L'architettura del protocollo FIÐEX garantisce non solo la sicurezza patrimoniale degli utenti, ma anche una gestione ottimizzata e trasparente delle risorse, ponendo le basi per una crescita sostenibile e una partecipazione democratica effettiva.
+  </p>
+</section>
+
+<!-- Section 6: Servizi offerti dalla DAO -->
+<section class="section" id="section-6">
+  <h1 class="section-title">6. Servizi offerti dalla DAO <span class="emoji">🛡️</span></h1>
+
+  <p class="paragraph">
+    FIÐEX DAO offre una gamma completa di servizi progettati per rispondere concretamente ai bisogni di sicurezza, gestione patrimoniale e partecipazione attiva degli utenti nel contesto della finanza decentralizzata. Il nostro obiettivo è creare un ecosistema integrato e facile da utilizzare, dove ogni membro possa beneficiare di strumenti concreti e verificabili per tutelare e valorizzare il proprio patrimonio digitale.
+  </p>
+
+  <!-- 6.1 Coperture assicurative -->
+  <h2 class="section-subtitle">🔒 6.1 Coperture Assicurative On-Chain</h2>
+  <p class="paragraph">
+    Il cuore del protocollo FIÐEX è costituito dalle coperture assicurative decentralizzate, progettate per proteggere efficacemente gli asset degli utenti da rischi comuni associati all’utilizzo della DeFi, quali hacking, exploit degli smart contract, perdita delle chiavi private e vulnerabilità operative.
+  </p>
+  <div class="list-box">
+    <ul>
+      <li><strong>Copertura personalizzabile</strong>: gli utenti possono scegliere il livello e il tipo di copertura assicurativa in base alle proprie esigenze individuali.</li>
+      <li><strong>Claim verificabile</strong>: tutti i processi di claim sono gestiti on-chain, in modo trasparente, rapido e verificabile.</li>
+      <li><strong>Premi competitivi e trasparenti</strong>: grazie alla gestione efficiente del fondo e al modello RAMM, la DAO può offrire premi assicurativi competitivi e chiari, accessibili a tutti gli utenti verificati.</li>
+    </ul>
+  </div>
+
+  <!-- 6.2 Dashboard Web3 -->
+  <h2 class="section-subtitle">🖥️ 6.2 Dashboard Web3 Personale</h2>
+  <p class="paragraph">
+    FIÐEX DAO offre una Dashboard Web3 innovativa, intuitiva e completa per la gestione quotidiana delle attività legate al protocollo.
+  </p>
+  <div class="list-box">
+    <ul>
+      <li><strong>Monitoraggio in tempo reale</strong>: ogni membro può visualizzare costantemente lo stato dei propri asset, delle coperture assicurative attivate e delle partecipazioni al fondo.</li>
+      <li><strong>Gestione della governance</strong>: la dashboard permette agli utenti verificati tramite WorldID di partecipare a votazioni, presentare proposte e contribuire attivamente.</li>
+      <li><strong>Processo semplificato di claim</strong>: interfaccia intuitiva per la presentazione di claim assicurativi e la loro risoluzione on-chain.</li>
+    </ul>
+  </div>
+
+  <!-- 6.3 Community Engagement -->
+  <h2 class="section-subtitle">🚀 6.3 Community Engagement e Reward Program</h2>
+  <p class="paragraph">
+    Per promuovere un coinvolgimento attivo della community, FIÐEX DAO utilizza il token secondario $FDX per iniziative di engagement mirate.
+  </p>
+  <div class="list-box">
+    <ul>
+      <li><strong>Eventi community-driven</strong>: webinar, formazioni, e incontri per stimolare la partecipazione attiva.</li>
+      <li><strong>Reward e incentivi</strong>: distribuzione di premi tramite staking, eventi di burn e programmi referral.</li>
+      <li><strong>Partnership strategiche</strong>: collaborazione con partner selezionati tramite il token $FDX.</li>
+    </ul>
+  </div>
+
+  <!-- 6.4 API e SDK -->
+<h2 class="section-subtitle">⚖️ 6.4 Arbitrato On-Chain (Kleros)</h2>
+<p class="paragraph">
+  FIÐEX DAO adotta un modulo di <strong>arbitrato decentralizzato</strong> integrato nella DAPP, per gestire in modo imparziale e verificabile ogni controversia legata ai claim assicurativi.
+  Il sistema sfrutta il protocollo <strong>Kleros</strong>, consentendo decisioni on-chain vincolanti tramite una giuria neutrale ed economicamente incentivata.
+</p>
+
+<div class="list-box">
+  <ul>
+    <li><strong>Escrow assicurativo:</strong> ogni copertura vincola i fondi in uno smart contract attivabile in caso di contestazione.</li>
+    <li><strong>Accesso a Kleros Court:</strong> le dispute vengono inviate alla giuria decentralizzata, previo deposito di una fee minima.</li>
+    <li><strong>Giuria incentivata:</strong> i giurati PNK votano in buona fede e ricevono compensi in base all’integrità del verdetto.</li>
+    <li><strong>Prove on-chain:</strong> entrambe le parti possono allegare documentazione (hash, log, audit) direttamente alla procedura arbitrale.</li>
+    <li><strong>Decisione automatica:</strong> l’esito è eseguito da smart contract, che sblocca o blocca il pagamento del claim.</li>
+  </ul>
+</div>
+
+<p class="paragraph">
+  Questo servizio rafforza la <strong>sicurezza giuridica</strong> della DAO e consolida il modello di governance decentralizzata promosso da FIÐEX, offrendo un arbitrato trasparente, strutturato e privo di intermediari centralizzati.
+</p>
+
+
+  <!-- 6.5 Consulenza Specializzata -->
+  <h2 class="section-subtitle">🌐 6.5 Consulenza Specializzata (Servizi Premium)</h2>
+  <p class="paragraph">
+    Per utenti e membri coinvolti, FIÐEX DAO offre servizi di consulenza specializzata, grazie alle competenze interne del team, in aggiunta a quella di ogni altro membro della DAO che vuole avere un ruolo attivo ed operativo, offrendo le porpie competenze.
+  </p>
+  <div class="list-box">
+    <ul>
+      <li><strong>Compliance normativa</strong>: supporto legale per progetti DeFi e strutture blockchain.</li>
+      <li><strong>Gestione finanziaria personalizzata</strong>: consulenza su strategie di investimento e rischio.</li>
+      <li><strong>Supporto tecnico e audit</strong>: verifiche tecnologiche e ottimizzazione degli smart contract.</li>
+    </ul>
+  </div>
+
+  <p class="paragraph">
+    Attraverso questi servizi, FIÐEX DAO non solo tutela il patrimonio digitale degli utenti, ma facilita anche una partecipazione pienamente consapevole, democratica e sicura nel mondo della DeFi.
+  </p>
+</section>
+
+<section id="sezione-7" class="section">
+  <h2 class="section-title">⚖️ 7. Struttura Giuridica e Compliance</h2>
+  <p class="paragraph">
+    La sicurezza giuridica e la conformità normativa costituiscono elementi cruciali per la sostenibilità e l’espansione responsabile di FIÐEX DAO. Per questo motivo, la nostra struttura giuridica è stata progettata con estrema attenzione, integrando gli standard di compliance internazionale più rigorosi con l’agilità operativa propria delle organizzazioni decentralizzate. Il cuore di tale struttura è rappresentato da <strong>Lighthouse</strong>, costituita come una Community Interest Company (C.I.C.) nel Regno Unito.
+  </p>
+
+  <h3 class="section-subtitle">📜 7.1 Lighthouse: Community Interest Company (C.I.C.)</h3>
+  <p class="paragraph">
+    Lighthouse svolge il ruolo fondamentale di rappresentanza legale ufficiale e tutela degli interessi collettivi della DAO. Il modello giuridico scelto è quello della Community Interest Company, forma giuridica ampiamente riconosciuta e apprezzata per la sua capacità di combinare scopi commerciali con finalità sociali o collettive.
+  </p>
+  <div class="list-box">
+    <ul>
+      <li><strong>Asset Lock</strong>: garantisce che il patrimonio raccolto e gestito sia sempre utilizzato esclusivamente per perseguire gli obiettivi sociali e collettivi stabiliti nello statuto della DAO, prevenendo ogni abuso o utilizzo improprio delle risorse.</li>
+      <li><strong>Compliance rigorosa</strong>: assicura una conformità continua con la normativa del Regno Unito e internazionale, tutelando legalmente tutti i membri della DAO e la loro partecipazione patrimoniale.</li>
+      <li><strong>Trasparenza operativa e contabile</strong>: Lighthouse è soggetta a audit periodici obbligatori e relazioni contabili pubbliche, garantendo la massima trasparenza e fiducia della community.</li>
+    </ul>
+  </div>
+
+  <h3 class="section-subtitle">🧑‍⚖️ 7.2 Ruolo di Lighthouse nella governance della DAO</h3>
+  <div class="list-box">
+    <ul>
+      <li><strong>Supervisione delle attività della DAO</strong>: Lighthouse monitora costantemente le operazioni e le decisioni della DAO, assicurando che queste rimangano sempre coerenti con gli obiettivi statutari e con i principi etici fondamentali del progetto.</li>
+      <li><strong>Assistenza nella formulazione delle proposte di governance</strong>: offre supporto giuridico, tecnico e finanziario nella preparazione delle proposte di governance sottoposte alla votazione della community, garantendo chiarezza e coerenza giuridica.</li>
+      <li><strong>Promozione della partecipazione attiva</strong>: Lighthouse sollecita attivamente la partecipazione della community, facilitando un processo decisionale democratico, efficiente e trasparente.</li>
+    </ul>
+  </div>
+
+  <h3 class="section-subtitle">🗳️ 7.3 Modello decisionale della DAO</h3>
+  <p class="paragraph">
+    FIÐEX DAO adotta un modello di governance ispirato da strutture consolidate nel diritto societario italiano e dall’esperienza della Commissione Europea, combinando rappresentanza proporzionale al capitale detenuto (tramite token $FXS) e diritti di voto democratici basati sull’identità verificata degli utenti tramite WorldID.
+  </p>
+  <div class="list-box">
+    <ul>
+      <li><strong>Quorum diversificati</strong>:
+        <ul>
+          <li><em>Minor proposals</em>: quorum del 2% per garantire agilità decisionale e snellezza operativa.</li>
+          <li><em>Major proposals</em>: quorum del 10% e approvazione minima del 33%, per decisioni strategiche rilevanti che necessitano una partecipazione più ampia e qualificata.</li>
+        </ul>
+      </li>
+      <li><strong>Voto ponderato e democratico</strong>: equilibrio attentamente calibrato tra diritti patrimoniali (capitale rappresentato dai token) e diritti democratici (identità individuali verificate).</li>
+      <li><strong>Meccanismo di delega</strong>: possibilità di delegare temporaneamente o permanentemente i propri diritti di voto, facilitando partecipazione continua e rappresentanza ottimale.</li>
+      <li><strong>Arbitrato indipendente</strong>: Lighthouse supervisiona e garantisce la correttezza procedurale tramite arbitrati indipendenti, avvalendosi anche della collaborazione di organismi esterni come Kleros, piattaforma specializzata nella risoluzione on-chain di controversie.</li>
+    </ul>
+  </div>
+
+  <h3 class="section-subtitle">🔐 7.4 Tutela continua e Compliance normativa</h3>
+  <div class="list-box">
+    <ul>
+      <li><strong>Anti-Money Laundering (AML)</strong>: implementazione di protocolli rigorosi per prevenire ogni forma di riciclaggio o utilizzo illecito dei fondi.</li>
+      <li><strong>Know Your Customer (KYC) basato su WorldID</strong>: identificazione chiara e verificata di tutti i membri partecipanti, garantendo la legittimità e sicurezza della community.</li>
+      <li><strong>Compliance fiscale e regolatoria</strong>: consulenza e supporto continuativo per rispettare pienamente tutte le normative fiscali e finanziarie applicabili, sia a livello UK che internazionale.</li>
+    </ul>
+  </div>
+
+  <p class="paragraph">
+    Attraverso questa struttura giuridica solida, agile e innovativa, FIÐEX DAO si assicura una crescita sostenibile, responsabile e pienamente conforme alle normative più esigenti, garantendo sempre la tutela e la fiducia della propria community.
+  </p>
+</section>
+
+
+<section id="section-8" class="whitepaper-section">
+  <h2 class="section-title">📈 8. Modello Economico e Sostenibilità</h2>
+  <p class="paragraph">
+    La sostenibilità finanziaria e la capacità di generare valore a lungo termine rappresentano elementi chiave del modello operativo di FIÐEX DAO. Il nostro approccio economico è progettato per garantire equilibrio tra sicurezza patrimoniale, performance finanziaria e crescita sostenibile, attraverso strategie prudenti e trasparenti, mirate a tutelare sempre gli interessi della community.
+  </p>
+
+  <h3 class="section-subtitle">🌱 8.1 Strategia di Funding iniziale</h3>
+  <p class="paragraph">La fase iniziale di raccolta fondi (funding) è organizzata per creare una solida base patrimoniale che consenta il finanziamento delle operazioni iniziali, la costituzione legale della C.I.C. (Lighthouse), e il lancio della piattaforma tecnologica.</p>
+  <div class="list-box">
+    <ul>
+      <li><strong>Raccolta fondi tramite Token $FXS</strong>: gli utenti partecipano versando contributi valorizzati 1:1 con le riserve, garantendo trasparenza e sicurezza patrimoniale fin dal principio.</li>
+      <li><strong>Lancio promozionale tramite Token $FDX</strong>: token secondario emesso su Pump.fun per generare attenzione mediatica, ampliare la community e aumentare la visibilità del progetto.</li>
+    </ul>
+  </div>
+
+  <h3 class="section-subtitle">📊 8.2 Gestione Patrimoniale Conservativa e Strategica</h3>
+  <p class="paragraph">Per garantire un rendimento sostenibile, FIÐEX DAO adotta una politica di gestione patrimoniale conservativa, orientata alla tutela del capitale e alla crescita graduale delle riserve patrimoniali.</p>
+  <div class="list-box">
+    <ul>
+      <li><strong>Staking Liquido</strong>: allocazione delle risorse in protocolli consolidati di liquid staking, garantendo stabilità e rendimenti prevedibili.</li>
+      <li><strong>Asset Risk-Off</strong>: impiego delle riserve in stablecoin e strumenti di liquidità a basso rischio, per preservare la sicurezza patrimoniale e la flessibilità operativa.</li>
+      <li><strong>Trading algoritmico prudente</strong>: utilizzo controllato e trasparente di strategie di trading quantitativo, gestito dal team di esperti finanziari interni, con limiti rigorosi di rischio e operatività chiaramente definiti.</li>
+    </ul>
+  </div>
+  <p class="paragraph">
+    <strong>Obiettivo di performance finanziaria</strong>: FIÐEX DAO mira a ottenere un rendimento iniziale conservativo del <strong>15% annuo</strong> sul capitale gestito, da realizzarsi nel primo anno di operatività. Questo target è impostato in modo realistico, bilanciando prudenza gestionale, opportunità di mercato e trasparenza assoluta nella reportistica finanziaria.
+  </p>
+
+  <h3 class="section-subtitle">🗓️ 8.3 Modello RAMM e Rebalance Patrimoniale</h3>
+  <div class="list-box">
+    <ul>
+      <li><strong>Mint e Burn dinamici</strong>: ogni nuova emissione di token $FXS avviene a un prezzo pari o superiore al valore intrinseco delle riserve, proteggendo i primi partecipanti e valorizzando progressivamente il capitale raccolto.</li>
+      <li><strong>Gestione automatica delle riserve</strong>: il pool RAMM ribilancia continuamente le riserve, mantenendo la stabilità patrimoniale complessiva e consentendo di ottimizzare la performance finanziaria in modo trasparente.</li>
+      <li><strong>Reinvestment delle revenues</strong>: eventuali profitti derivanti dalla gestione del fondo sono reinvestiti automaticamente nelle riserve del protocollo, generando un effetto di crescita composto e rafforzando la stabilità finanziaria della DAO nel tempo.</li>
+    </ul>
+  </div>
+
+  <h3 class="section-subtitle">📌 8.4 Fonti di Entrate e Modello di Business</h3>
+  <p class="paragraph">Le entrate principali della DAO provengono dalla sottoscrizione delle coperture assicurative da parte degli utenti.</p>
+  <div class="list-box">
+    <ul>
+      <li><strong>Premi assicurativi</strong>: derivanti dalle coperture sottoscritte, rappresentano il flusso di entrate stabile e prevedibile per la DAO.</li>
+      <li><strong>Fee operative</strong>: commissioni derivanti dall’utilizzo della piattaforma, servizi premium e consulenza specialistica offerta ai membri.</li>
+      <li><strong>Proventi da investimenti</strong>: generati dalla gestione prudente e strategica delle riserve patrimoniali del fondo.</li>
+    </ul>
+  </div>
+  <p class="paragraph">Il modello di business FIÐEX è strutturato per garantire una crescita sostenibile e autosufficiente, con un rigoroso controllo dei costi operativi e massimizzazione delle risorse a beneficio della community.</p>
+
+  <h3 class="section-subtitle">📈 8.5 Roadmap Economica e Passaggio alla Governance DAO Completa</h3>
+  <div class="list-box">
+    <ul>
+      <li><strong>Primi 12 mesi</strong>: Gestione diretta del team fondatore con obiettivo finanziario definito del 15% annuo.</li>
+      <li><strong>Transizione alla governance DAO</strong>: al raggiungimento della stabilità operativa e finanziaria, la gestione sarà gradualmente trasferita al Consiglio di Amministrazione eletto democraticamente dalla community verificata.</li>
+      <li><strong>Governance continuativa sotto supervisione di Lighthouse</strong>: Lighthouse supervisionerà sempre il processo decisionale, garantendo conformità normativa, solidità patrimoniale e trasparenza gestionale permanente.</li>
+    </ul>
+  </div>
+  <p class="paragraph">
+    Con questa strategia economica e gestionale attentamente strutturata, FIÐEX DAO assicura sostenibilità finanziaria a lungo termine, crescita patrimoniale prudente e una governance democratica pienamente operativa, in grado di tutelare e valorizzare costantemente gli interessi di tutta la community.
+  </p>
+</section>
+
+<section id="section-9" class="whitepaper-section">
+  <h2 class="section-title">📌 9. Governance DAO</h2>
+  <p class="paragraph">
+    FIÐEX DAO implementa un modello di governance evoluto e strutturato, ispirato dalle migliori pratiche adottate nelle società per azioni quotate e nelle istituzioni democratiche avanzate, adattandole alle specificità della finanza decentralizzata e della blockchain. Il nostro sistema garantisce un bilanciamento ottimale tra efficienza decisionale, trasparenza operativa e rappresentanza equa di tutti i membri della community, assicurando la massima tutela patrimoniale e democratica.
+  </p>
+
+  <h3 class="section-subtitle">📜 9.1 Principi Fondamentali della Governance</h3>
+  <div class="list-box">
+    <ul>
+      <li><strong>Trasparenza Assoluta</strong>: tutte le decisioni, le votazioni e i relativi risultati sono integralmente registrati on-chain, garantendo verificabilità e auditabilità.</li>
+      <li><strong>Partecipazione Equa e Democratica</strong>: ogni membro verificato tramite WorldID ha diritto di partecipare alle votazioni con meccanismi ponderati che combinano la rappresentanza proporzionale al capitale con diritti individuali democratici.</li>
+      <li><strong>Accountability e Responsabilità</strong>: il Consiglio di Amministrazione e ogni altra struttura delegata rispondono direttamente alla community tramite report periodici dettagliati e audit indipendenti obbligatori.</li>
+    </ul>
+  </div>
+
+  <h3 class="section-subtitle">🏢 9.2 Struttura della Governance</h3>
+
+  <h4>🔹 Assemblea Generale dei Membri (Token Holders)</h4>
+  <div class="list-box">
+    <ul>
+      <li><strong>Ruolo</strong>: rappresenta la massima autorità della DAO, costituita da tutti i membri verificati titolari del token $FXS.</li>
+      <li><strong>Funzioni</strong>:
+        <ul>
+          <li>Eleggere i membri del Consiglio di Amministrazione.</li>
+          <li>Approvare o respingere proposte strategiche rilevanti.</li>
+          <li>Validare modifiche sostanziali allo statuto o al protocollo.</li>
+        </ul>
+      </li>
+      <li><strong>Modalità operativa</strong>: assemblee periodiche ordinarie (trimestrali) e straordinarie convocate tramite piattaforma Web3, con decisioni prese tramite voto on-chain.</li>
+    </ul>
+  </div>
+
+  <h4>🔸 Consiglio di Amministrazione (Board of Directors)</h4>
+  <div class="list-box">
+    <ul>
+      <li><strong>Ruolo</strong>: organo operativo e strategico, composto da membri qualificati e rappresentativi della community, eletti democraticamente dall'assemblea.</li>
+      <li><strong>Funzioni</strong>:
+        <ul>
+          <li>Gestire operativamente il protocollo e le risorse finanziarie.</li>
+          <li>Definire le strategie di investimento e gestione patrimoniale.</li>
+          <li>Supervisionare le attività quotidiane e implementare le decisioni assembleari.</li>
+          <li>Redigere e pubblicare report periodici dettagliati sulla gestione finanziaria e operativa.</li>
+        </ul>
+      </li>
+      <li><strong>Mandato</strong>: mandato biennale rinnovabile, con responsabilità diretta e accountability continua verso l'assemblea generale.</li>
+    </ul>
+  </div>
+
+  <h4>🔹 Comitato di Controllo e Compliance (Audit Committee)</h4>
+  <div class="list-box">
+    <ul>
+      <li><strong>Ruolo</strong>: organo indipendente di supervisione, con membri esterni qualificati, incaricato della vigilanza sull’operato del Consiglio di Amministrazione.</li>
+      <li><strong>Funzioni</strong>:
+        <ul>
+          <li>Verificare periodicamente la conformità operativa, normativa e fiscale.</li>
+          <li>Eseguire audit indipendenti obbligatori.</li>
+          <li>Garantire la trasparenza della reportistica finanziaria e operativa.</li>
+          <li>Segnalare eventuali anomalie o criticità direttamente all'assemblea generale.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <h4>🔸 Organo di Arbitrato e Risoluzione Controversie</h4>
+  <div class="list-box">
+    <ul>
+      <li><strong>Ruolo</strong>: entità indipendente di gestione delle controversie interne alla DAO.</li>
+      <li><strong>Funzioni</strong>:
+        <ul>
+          <li>Risolvere eventuali controversie tra membri, governance e amministrazione.</li>
+          <li>Collaborare con organismi specializzati di arbitrato on-chain come Kleros.</li>
+          <li>Assicurare una risoluzione rapida, trasparente e imparziale dei conflitti.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <h3 class="section-subtitle">🗳️ 9.3 Meccanismo Decisionale e Quorum Diversificati</h3>
+  <div class="list-box">
+    <ul>
+      <li><strong>Decisioni ordinarie</strong> (es. operazioni correnti, approvazione budget ordinari): Quorum semplice (maggioranza assoluta, 50%+1 dei partecipanti).</li>
+      <li><strong>Decisioni straordinarie</strong> (es. modifiche statutarie, cambiamenti strategici rilevanti): Quorum qualificato del 66% dei partecipanti e almeno il 50% dei membri aventi diritto al voto.</li>
+      <li><strong>Voto ponderato</strong>: il voto degli utenti è bilanciato in modo equo, considerando sia il peso proporzionale del capitale detenuto ($FXS), sia il principio democratico di rappresentanza individuale (WorldID).</li>
+    </ul>
+  </div>
+
+  <h3 class="section-subtitle">📈 9.4 Sistema di Deleghe e Partecipazione Continua</h3>
+  <div class="list-box">
+    <ul>
+      <li><strong>Deleghe operative</strong>: possibilità di delegare il voto temporaneamente o permanentemente a membri ritenuti più qualificati o disponibili, garantendo rappresentanza continua e qualificata.</li>
+      <li><strong>Reporting trasparente sulle deleghe</strong>: ogni delega è registrata on-chain e pienamente tracciabile, con piena visibilità dei deleganti e delegati e dei voti esercitati.</li>
+    </ul>
+  </div>
+
+  <h3 class="section-subtitle">🛡️ 9.5 Ruolo Continuativo di Lighthouse nella Governance</h3>
+  <p class="paragraph">
+    Lighthouse (C.I.C.) garantisce un supporto istituzionale continuativo e di compliance alla governance democratica della DAO:
+  </p>
+  <div class="list-box">
+    <ul>
+      <li>Monitora e verifica continuamente la conformità normativa e procedurale delle attività decisionali.</li>
+      <li>Garantisce supporto giuridico e tecnico nella preparazione e presentazione delle proposte sottoposte all'assemblea.</li>
+      <li>Supervisiona il processo elettorale e l'operato degli organi di governance, assicurando accountability, trasparenza e rispetto rigoroso delle procedure statutarie.</li>
+    </ul>
+  </div>
+</section>
+<section id="sezione-10" class="section">
+  <h2 class="section-title">📅 10. Roadmap Operativa</h2>
+  <p class="paragraph">
+    La roadmap di FIÐEX DAO è progettata per garantire rapidità operativa, trasparenza e sicurezza per tutti i partecipanti. La logica temporale privilegia una fase iniziale di commit, immediatamente seguita – entro 15 giorni – dal rilascio della DAPP e dalla possibilità di attivare le prime coperture assicurative, anche prima della distribuzione effettiva dei token $FXS. La governance decentralizzata si attiverà in modo graduale entro 12 mesi, sotto la supervisione della C.I.C. Lighthouse.
+  </p>
+
+  <h3 class="section-subtitle">🧾 Fase 1 – Commit & Costituzione (0-3 mesi)</h3>
+  <div class="list-box">
+    <p class="paragraph"><strong>Obiettivi principali:</strong></p>
+    <ul>
+      <li>Pubblicazione whitepaper definitivo, regolamento DAO e tokenomics.</li>
+      <li>Lancio del token promozionale $FDX su Pump.fun.</li>
+      <li>Avvio della raccolta fondi multi-chain → commit tracciato (senza distribuzione di token $FXS).</li>
+      <li>Registrazione degli utenti tramite <strong>verifica WorldID</strong> e whitelist.</li>
+      <li>Lavori preparatori per la Costituzione legale della C.I.C. <em>Lighthouse</em> (UK).</li>
+    </ul>
+    <p class="paragraph"><strong>Milestone chiave:</strong></p>
+    <ul>
+      <li>Obiettivo di raccolta minimo (soft cap) raggiunto.</li>
+      <li>Riserve multichain depositate nei wallet della treasury.</li>
+      <li>Audit preliminare degli smart contract e della DAPP.</li>
+    </ul>
+  </div>
+
+  <h3 class="section-subtitle">🧠 Fase 2 – Rilascio DAPP & Attivazione Coperture (entro 15 giorni dalla chiusura del commit)</h3>
+  <div class="list-box">
+    <p class="paragraph"><strong>Obiettivi principali:</strong></p>
+    <ul>
+      <li>Rilascio della dashboard FIÐEX Web3 (v.1) con funzionalità attive:</li>
+      <ul>
+        <li>Visualizzazione del proprio contributo e diritto futuro a $FXS.</li>
+        <li>Attivazione delle <strong>prime coperture assicurative test</strong>.</li>
+        <li>Accesso agli strumenti della governance (proposte, forum, Q&A).</li>
+      </ul>
+    </ul>
+    <p class="paragraph"><strong>Note strategiche:</strong></p>
+    <ul>
+      <li>Questa fase precede la distribuzione dei token $FXS.</li>
+      <li>Gli utenti hanno subito accesso ai servizi, rinforzando fiducia e trasparenza.</li>
+      <li>Le coperture sono legate al wallet committente e alla quota versata.</li>
+    </ul>
+    <p class="paragraph"><strong>Milestone chiave:</strong></p>
+    <ul>
+      <li>Primo blocco assicurativo attivato on-chain.</li>
+      <li>Registro trasparente dei partecipanti e delle quote.</li>
+      <li>Avvio programma ambasciatori/community agent.</li>
+    </ul>
+  </div>
+
+  <h3 class="section-subtitle">🪙 Fase 3 – Claim $FXS & Pool RAMM (entro 2-3 mesi)</h3>
+  <div class="list-box">
+    <p class="paragraph"><strong>Obiettivi principali:</strong></p>
+    <ul>
+      <li>Distribuzione dei token $FXS sulla base dei fondi impegnati nella fase di commit.</li>
+      <li>Attivazione della private pool RAMM per gestire mint/burn del token.</li>
+      <li>Lancio formale della governance on-chain con snapshot dei possessori $FXS.</li>
+    </ul>
+    <p class="paragraph"><strong>Meccanismo di Claim:</strong></p>
+    <ul>
+      <li>1:1 rispetto al valore versato.</li>
+      <li>Eventuale <em>cliff</em> o vesting (opzionale).</li>
+      <li>Mint successivi a NAV progressivamente crescente (anti-dilution).</li>
+    </ul>
+    <p class="paragraph"><strong>Milestone chiave:</strong></p>
+    <ul>
+      <li>Completamento distribuzione $FXS.</li>
+      <li>Prime votazioni attive.</li>
+      <li>Audit pubblico dei contratti RAMM.</li>
+    </ul>
+  </div>
+
+  <h3 class="section-subtitle">📊 Fase 4 – Consolidamento Strategico (6-12 mesi)</h3>
+  <div class="list-box">
+    <p class="paragraph"><strong>Obiettivi principali:</strong></p>
+    <ul>
+      <li>Espansione della gamma di coperture assicurative.</li>
+      <li>Moduli per utenti avanzati (API, Webhooks, multichain UI).</li>
+      <li>Gestione fondi con obiettivo di +15% annuo.</li>
+    </ul>
+    <p class="paragraph"><strong>Milestone chiave:</strong></p>
+    <ul>
+      <li>Prima relazione trimestrale del fondo.</li>
+      <li>Integrazione partner assicurativi e DeFi analytics.</li>
+      <li>Preparazione per l’elezione della governance ufficiale DAO.</li>
+    </ul>
+  </div>
+
+  <h3 class="section-subtitle">🗳️ Fase 5 – Governance DAO Completa (12-18 mesi)</h3>
+  <div class="list-box">
+    <p class="paragraph"><strong>Obiettivi principali:</strong></p>
+    <ul>
+      <li>Elezione del <strong>Consiglio di Amministrazione decentralizzato</strong>.</li>
+      <li>Delega formale alla DAO della gestione dei fondi e policy.</li>
+      <li>Lighthouse (C.I.C.) assume funzione di controllo legale e audit.</li>
+    </ul>
+    <p class="paragraph"><strong>Milestone chiave:</strong></p>
+    <ul>
+      <li>Primo board eletto.</li>
+      <li>Quorum e voto attivati.</li>
+      <li>Pubblicazione bilanci e verbali DAO on-chain.</li>
+    </ul>
+  </div>
+
+  <h3 class="section-subtitle">🌍 Fase 6 – Espansione Ecosistemica (18-36 mesi)</h3>
+  <div class="list-box">
+    <p class="paragraph"><strong>Obiettivi principali:</strong></p>
+    <ul>
+      <li>Espansione in nuove regioni giuridiche.</li>
+      <li>Collaborazioni con DeFi, fondazioni, istituzioni pubbliche.</li>
+      <li>Partecipazione a <strong>Grant program</strong> Worldcoin Foundation.</li>
+    </ul>
+    <p class="paragraph"><strong>Milestone chiave:</strong></p>
+    <ul>
+      <li>Fondi assicurativi oltre $1M.</li>
+      <li>White-label coperture B2B.</li>
+      <li>Rilascio SDK e partnership DAO-to-DAO.</li>
+    </ul>
+  </div>
+
+  <h3 class="section-subtitle">📌 Riepilogo logico delle fasi</h3>
+ <figure class="whitepaper-graphic">
+  <img src="tabella10.png" alt="Infografica riepilogativa delle fasi della roadmap FIÐEX DAO">
+  <figcaption>Riepilogo logico e temporale della roadmap FIÐEX DAO (Fasi 1-6)</figcaption>
+</figure>
+
+</section>
+
+
+  </div>
+</body>
+</html>
