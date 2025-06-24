@@ -768,10 +768,393 @@
 
   <h3 class="section-subtitle">📌 Riepilogo logico delle fasi</h3>
  <figure class="whitepaper-graphic">
-  <img src="tabella10.png" alt="Infografica riepilogativa delle fasi della roadmap FIÐEX DAO">
+  <img src="tabbella10.png" alt="Infografica riepilogativa delle fasi della roadmap FIÐEX DAO">
   <figcaption>Riepilogo logico e temporale della roadmap FIÐEX DAO (Fasi 1-6)</figcaption>
 </figure>
 
+</section>
+<section id="sezione-11" class="section">
+  <h2 class="section-title">🌐 11. Integrazione con Worldcoin Foundation</h2>
+  <p class="paragraph">
+    FIÐEX DAO si fonda su una visione comune con la <strong>Worldcoin Foundation</strong>, condividendo l'obiettivo di costruire una finanza decentralizzata più giusta, trasparente e accessibile. In quest’ottica, la nostra infrastruttura nasce <strong>direttamente su World Chain</strong>, la Layer 2 sviluppata per supportare applicazioni decentralizzate ad alto impatto sociale, basate su <strong>identità verificata e sicurezza on-chain</strong>.
+  </p>
+
+  <h3 class="section-subtitle">✅ Identità verificata: World ID come prerequisito</h3>
+  <div class="list-box">
+    <p class="paragraph">
+      Tutti i membri della DAO devono essere identificati attraverso il sistema <strong>World ID</strong>, garantendo:
+    </p>
+    <ul>
+      <li><strong>Proof of Personhood</strong> → solo utenti umani possono accedere ai servizi e alla governance</li>
+      <li>Protezione nativa da Sybil Attack e uso improprio dei meccanismi di voto</li>
+      <li>Integrazione automatica con la reputazione utente (futuro modulo reputazionale)</li>
+    </ul>
+    <p class="paragraph">
+      In FIÐEX, l'identità <strong>non è opzionale</strong>: è un requisito di sicurezza e coerenza con la missione etica del progetto.
+    </p>
+  </div>
+
+  <h3 class="section-subtitle">⚙️ Tecnologia nativa: World Chain + EVM Superbridge</h3>
+  <div class="list-box">
+    <p class="paragraph">
+      FIÐEX DAO è <strong>interamente sviluppata su World Chain</strong>, sfruttando le sue caratteristiche chiave:
+    </p>
+    <ul>
+      <li><strong>Zero gas fees</strong> per utenti umani verificati</li>
+      <li><strong>Scalabilità Layer 2</strong> per operazioni rapide ed economiche</li>
+      <li><strong>Compatibilità EVM completa</strong>, garantita dal <strong>Superbridge</strong>, che consente:
+        <ul>
+          <li>Interoperabilità con protocolli Ethereum, Arbitrum, Polygon, ecc.</li>
+          <li>Utilizzo cross-chain dei fondi del tesoro</li>
+          <li>Migrazione o replica di moduli DAO in altri ambienti EVM</li>
+        </ul>
+      </li>
+    </ul>
+    <p class="paragraph">
+      Il nostro modello tecnico prevede un <strong>core nativo su World Chain</strong> e la <strong>modularità su più chain</strong> attraverso smart contract federati e wrapper bridge.
+    </p>
+  </div>
+
+  <h3 class="section-subtitle">🎯 Obiettivo strategico: Grant Program Worldcoin</h3>
+  <div class="list-box">
+    <p class="paragraph">
+      Uno degli obiettivi principali nella fase di sviluppo è la <strong>partecipazione al programma Grant della Worldcoin Foundation</strong>, in quanto:
+    </p>
+    <ul>
+      <li>FIÐEX risponde perfettamente alla call for project: “Tools that empower World ID users”</li>
+      <li>L’infrastruttura è conforme agli standard etici, tecnici e legali promossi dalla Foundation</li>
+      <li>La documentazione legale (DAO + C.I.C) e la DAPP sono in stato avanzato</li>
+    </ul>
+    <p class="paragraph">
+      Il team sta preparando una candidatura dettagliata, con:
+    </p>
+    <ul>
+      <li>Protocollo assicurativo basato su World ID</li>
+      <li>Governance DAO con proof-of-personhood</li>
+      <li>Tokenomics sostenibile con partecipazione reale</li>
+    </ul>
+  </div>
+
+  <h3 class="section-subtitle">🤝 Sinergie future</h3>
+  <div class="list-box">
+    <p class="paragraph">
+      FIÐEX DAO intende proporsi come uno dei primi <strong>progetti assicurativi full-stack su World Chain</strong>, aprendo la strada a:
+    </p>
+    <ul>
+      <li>Collaborazioni con progetti basati su World ID</li>
+      <li>Estensioni reputazionali con sistemi di crediti o affidabilità mutualistica</li>
+      <li>Implementazione di strumenti Web3 orientati al welfare comunitario</li>
+    </ul>
+  </div>
+</section>
+
+<section id="sezione-12" class="section">
+  <h2 class="section-title">📊 12. Aspetti Tecnici</h2>
+  <p class="paragraph">
+    L’infrastruttura tecnica di FIÐEX DAO è progettata secondo i più elevati standard di sicurezza, modularità e interoperabilità, con l’obiettivo di garantire una user experience fluida, verificabile e decentralizzata. Il cuore del sistema è una <strong>DAPP Web3</strong> completamente integrata su <strong>World Chain</strong>, compatibile con EVM e pensata per scalare sin dai primi cicli operativi.
+  </p>
+
+  <h3 class="section-subtitle">🖥️ 12.1 Architettura della DAPP</h3>
+  <div class="list-box">
+    <p class="paragraph">
+      La piattaforma DAPP rappresenta l'interfaccia operativa per i membri della DAO, consentendo la gestione diretta delle proprie quote, la partecipazione alle decisioni e l’accesso ai servizi assicurativi.
+    </p>
+    <ul>
+      <li><strong>Dashboard personalizzata</strong>: panoramica su fondi, quota partecipativa, rendimento stimato, notifiche e diritti di voto.</li>
+      <li><strong>Modulo di funding & claim</strong>: permette di effettuare il commit in fase 1 e successivamente reclamare $FXS in base alla riserva on-chain.</li>
+      <li><strong>Governance Module</strong>: sezione dedicata alle votazioni DAO (con voto a quorum dinamico), proposte, deleghe, forum.</li>
+      <li><strong>Sistema coperture</strong>: sezione per attivare richieste di protezione, upload prova incidente, gestione sinistri.</li>
+      <li><strong>World ID Auth</strong>: autenticazione e gating delle funzioni riservate esclusivamente a utenti umani verificati.</li>
+    </ul>
+    <p class="paragraph">
+      <strong>User Flow (semplificato):</strong>
+    </p>
+    <ol>
+      <li>Onboarding → Connetti wallet + verifica World ID</li>
+      <li>Partecipazione → Contributo al fondo tramite asset supportati</li>
+      <li>Claim → Ricezione token $FXS con meccanismo vesting (fase 2)</li>
+      <li>Governance → Votazione proposte o delega a membri rappresentativi</li>
+      <li>Servizi → Attivazione coperture e accesso alle funzioni assicurative</li>
+    </ol>
+  </div>
+
+<h3 class="section-subtitle">🔐 12.2 Smart Contract Architecture</h3>
+<p class="paragraph">
+  Tutti gli smart contract principali sono <strong>open source</strong>, deployati su <strong>World Chain</strong> ed estendibili su altre EVM chain tramite bridge o wrapper proxy. Sono previsti <strong>audit multipli indipendenti</strong> prima della distribuzione dei token o dell’apertura al pubblico.
+</p>
+
+<div class="table-box">
+  <table class="smart-table">
+    <thead>
+      <tr>
+        <th>📄 Contratto</th>
+        <th>🛠️ Funzione</th>
+        <th>🧾 Note Tecniche</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>CommitTracker</strong></td>
+        <td>Registra contributi ricevuti e indirizzi WorldID</td>
+        <td>Non minta token, log trasparente su chain</td>
+      </tr>
+      <tr>
+        <td><strong>FXSClaim</strong></td>
+        <td>Distribuzione $FXS post-commit</td>
+        <td>Include vesting, whitelist e prova d’identità</td>
+      </tr>
+      <tr>
+        <td><strong>FXSPool (RAMM)</strong></td>
+        <td>Gestione dinamica mint/burn $FXS</td>
+        <td>Modello Rebalancing AMM, legato al NAV</td>
+      </tr>
+      <tr>
+        <td><strong>GovernanceCore</strong></td>
+        <td>Gestione votazioni, quorum, proposte</td>
+        <td>Supporta ERC20 votante + snapshot off-chain</td>
+      </tr>
+      <tr>
+        <td><strong>CoverModule</strong></td>
+        <td>Attivazione coperture assicurative</td>
+        <td>L'utente in caso di sinistri firmerà il moodulo claim; i risk esperts si occuperanno della validità. In caso limite l'approvazione sarà sottoposto al voto DAO</td>
+      </tr>
+      <tr>
+        <td><strong>LighthouseDelegate</strong></td>
+        <td>Connessione con entità legale UK</td>
+        <td>Funzioni notarili e compliance fiscale</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+      <li><strong>Meccanismo di Vesting</strong>: Cliff iniziale (30 giorni), rilascio lineare su 24 mesi. Codificato on-chain.</li>
+      <li><strong>Rebalancing</strong>: Il prezzo di mint $FXS cresce con l’incremento del Net Asset Value (NAV) della pool.</li>
+      <li><strong>Burn volontario</strong>: Gli utenti possono "uscire" bruciando $FXS contro la riserva, entro limiti dinamici.</li>
+    </ul>
+  </div>
+
+  <h3 class="section-subtitle">🛡️ 12.3 Sicurezza, Audit e Trasparenza</h3>
+  <div class="list-box">
+    <p class="paragraph">
+      FIÐEX DAO adotta un approccio <strong>security-first</strong>, con particolare attenzione alla tutela dei fondi e alla trasparenza dei flussi. Ogni contratto è soggetto a un ciclo di revisione che include:
+    </p>
+    <ul>
+      <li>Audit indipendente (quantomeno 2 round) da aziende accreditate</li>
+      <li>Bug bounty program pubblico dopo il lancio (via Immunefi o simili)</li>
+      <li>Testnet estesa con simulazioni live, attacchi Sybil, stress-test</li>
+      <li>Verifica full-chain delle riserve, esposte su dashboard in tempo reale</li>
+      <li>Documentazione completa e open source via GitHub + IPFS</li>
+    </ul>
+    <p class="paragraph">
+      Tutti gli aggiornamenti futuri degli smart contract saranno sottoposti a <strong>votazione DAO</strong> con periodo di preavviso, in modo da mantenere l’integrità e la fiducia nel sistema.
+    </p>
+  </div>
+</section>
+<section id="sezione-13" class="section">
+  <h2 class="section-title">🔍 13. Rischi e Mitigazione</h2>
+  <p class="paragraph">
+    In quanto protocollo nativamente basato su tecnologie decentralizzate, FIÐEX DAO riconosce la presenza di diversi rischi potenziali che potrebbero compromettere l’integrità, la sicurezza o l’affidabilità del sistema. Uno degli scopi fondanti della DAO è proprio quello di affrontare, mitigare e assicurare tali rischi, sia per sé stessa sia per gli utenti partecipanti.
+  </p>
+  <p class="paragraph">
+    L’identificazione, classificazione e gestione del rischio avviene secondo un approccio <strong>proattivo e multilivello</strong>, includendo:
+  </p>
+  <ul>
+    <li>prevenzione tecnica e governance trasparente;</li>
+    <li>copertura operativa;</li>
+    <li>responsabilizzazione giuridica tramite la C.I.C.;</li>
+    <li>piani di emergenza integrati nella struttura contrattuale e organizzativa.</li>
+  </ul>
+
+    <h3 class="section-subtitle">⚠️ 13.1 Tipologie di rischio individuate</h3>
+  <table class="smart-table">
+    <thead>
+      <tr>
+        <th>Categoria</th>
+        <th>Descrizione</th>
+        <th>Esempi</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Tecnico</td>
+        <td>Vulnerabilità del codice, attacchi, exploit</td>
+        <td>Reentrancy, overflow, bridge hack</td>
+      </tr>
+      <tr>
+        <td>Operativo</td>
+        <td>Errori gestionali, bug nella governance, configurazioni errate</td>
+        <td>Mancata attivazione del vesting, quorum errati</td>
+      </tr>
+      <tr>
+        <td>Legale/regolatorio</td>
+        <td>Incertezza normativa, rischio di qualificazione errata del token</td>
+        <td>Qualificazione come security, KYC non conforme</td>
+      </tr>
+      <tr>
+        <td>Sociale/di governance</td>
+        <td>Attacchi Sybil, concentrazione del potere, disallineamento degli interessi</td>
+        <td>Votazioni manipolate, mancanza di quorum</td>
+      </tr>
+      <tr>
+        <td>Finanziario/mercato</td>
+        <td>Shock esterni, perdita di riserve, illiquidità temporanea</td>
+        <td>Bank run sul pool, undercollateralization</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 class="section-subtitle">🛡️ 13.2 Misure di mitigazione previste</h3>
+  <div class="list-box">
+    <h4>A. Rischi tecnici</h4>
+    <ul>
+      <li><strong>Audit multipli indipendenti</strong> prima di ogni rilascio di smart contract</li>
+      <li><strong>Testnet estesa</strong> con simulazione di attacchi su larga scala</li>
+      <li><strong>Modularità del codice</strong> per aggiornamenti mirati senza dover migrare l'intero sistema</li>
+      <li><strong>Bug bounty program</strong> pubblico incentivato per scovare vulnerabilità</li>
+      <li><strong>Pausa d’emergenza (circuit breaker)</strong> con multisig di sicurezza e timer on-chain</li>
+    </ul>
+    <h4>B. Rischi operativi</h4>
+    <ul>
+      <li><strong>Ruoli separati</strong> tra C.I.C. (legal watchdog) e DAO (esecutivo)</li>
+      <li><strong>Fail-safe mechanism</strong> in caso di quorum non raggiunto o update critici</li>
+      <li><strong>Monitoraggio real-time della riserva</strong> via oracle e dashboard pubblica</li>
+      <li><strong>Procedure di ripristino e rollback</strong> integrate nella governance</li>
+    </ul>
+    <h4>C. Rischi giuridici</h4>
+    <ul>
+      <li><strong>Struttura mista DAO + C.I.C.</strong> per mantenere compliance multilivello</li>
+      <li><strong>Natura mutualistica e non-profit del token $FXS</strong> → esclusione da security</li>
+      <li><strong>Supporto legale proattivo</strong> e aggiornamento continuo sulla regolazione globale</li>
+      <li><strong>KYC implicito tramite WorldID</strong> → limitazione a soggetti umani verificati</li>
+    </ul>
+    <h4>D. Rischi sociali e di governance</h4>
+    <ul>
+      <li><strong>Sistema WorldID → Sybil Resistance</strong> by design</li>
+      <li><strong>Modello di voto ibrido (teste + capitale)</strong> con quorum dinamici</li>
+      <li><strong>Deleghe e incentivi per la partecipazione</strong> → mantenere attiva la community</li>
+      <li><strong>Snapshot governance</strong> → prevenzione di attacchi flash vote</li>
+    </ul>
+    <h4>E. Rischi finanziari</h4>
+    <ul>
+      <li><strong>RAMM pool con limite di burn</strong> per evitare bank run</li>
+      <li><strong>Treasury allocation prudente</strong> con esposizione minima a strumenti volatili</li>
+      <li><strong>Rebalance ciclico</strong> → il valore del fondo cresce gradualmente, evitando stress</li>
+      <li><strong>Meccanismo soft-exit</strong> → consentire il ritiro graduale in fasi controllate</li>
+    </ul>
+  </div>
+
+  <h3 class="section-subtitle">🔄 13.3 Piano di emergenza</h3>
+  <ol>
+    <li><strong>Attivazione multisig d’emergenza</strong> (Circuit Breaker)</li>
+    <li><strong>Congelamento temporaneo della governance</strong></li>
+    <li><strong>Notifica pubblica alla community</strong></li>
+    <li><strong>Consiglio tecnico + C.I.C.</strong> valuta la situazione</li>
+    <li><strong>Votazione straordinaria della DAO</strong> → scelta tra rollback, fork, aggiornamento o liquidazione controllata</li>
+  </ol>
+  <p class="paragraph">
+    Tutte le procedure sono documentate nel “FIÐEX Emergency Protocol” accessibile pubblicamente sulla DAPP e in IPFS.
+  </p>
+</section>
+<section id="sezione-14" class="section">
+  <h2 class="section-title">📘 14. Appendici Tecniche</h2>
+
+  <h3 class="section-subtitle">📘 14.1 Glossario Tecnico e Giuridico</h3>
+  <table class="smart-table">
+    <thead>
+      <tr>
+        <th>Termine</th>
+        <th>Definizione</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>DAO (Decentralized Autonomous Organization)</strong></td>
+        <td>Organizzazione decentralizzata gestita da smart contract e dalla partecipazione dei membri tramite meccanismi di voto on-chain.</td>
+      </tr>
+      <tr>
+        <td><strong>C.I.C. (Community Interest Company)</strong></td>
+        <td>Ente giuridico registrato nel Regno Unito con finalità mutualistiche, utilizzato in FIÐEX per la rappresentanza legale della DAO.</td>
+      </tr>
+      <tr>
+        <td><strong>World ID</strong></td>
+        <td>Sistema di verifica dell’identità umana sviluppato da Worldcoin, utilizzato per garantire l’unicità e l’umanità dei partecipanti.</td>
+      </tr>
+      <tr>
+        <td><strong>RAMM (Rebalancing Automated Market Maker)</strong></td>
+        <td>Meccanismo di pool dinamico che regola il mint/burn del token $FXS sulla base del Net Asset Value del fondo.</td>
+      </tr>
+      <tr>
+        <td><strong>Commit</strong></td>
+        <td>Fase in cui l’utente versa un contributo iniziale per entrare nel funding round.</td>
+      </tr>
+      <tr>
+        <td><strong>Claim</strong></td>
+        <td>Azione successiva al commit che consente di riscattare i token $FXS corrispondenti alla propria quota.</td>
+      </tr>
+      <tr>
+        <td><strong>Snapshot Governance</strong></td>
+        <td>Sistema di voto che utilizza la fotografia dello stato dei wallet a un blocco specifico per impedire attacchi flash.</td>
+      </tr>
+      <tr>
+        <td><strong>Circuit Breaker</strong></td>
+        <td>Meccanismo di sicurezza che consente di congelare temporaneamente le operazioni in caso di attacco o emergenza.</td>
+      </tr>
+      <tr>
+        <td><strong>Smart Contract</strong></td>
+        <td>Contratto autonomo eseguito su blockchain che automatizza funzioni gestionali, di governance o di copertura.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 class="section-subtitle">🧩 14.2 Schemi Grafici e Infografiche (suggeriti)</h3>
+  <table class="smart-table">
+    <thead>
+      <tr>
+        <th>Schema</th>
+        <th>Descrizione</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Flusso Utente</strong></td>
+        <td>Onboarding → Commit → Claim → Governance → Servizi</td>
+      </tr>
+      <tr>
+        <td><strong>Struttura Duale</strong></td>
+        <td>DAO ↔ C.I.C. con flusso dati/decisioni in entrambi i sensi</td>
+      </tr>
+      <tr>
+        <td><strong>Architettura Moduli</strong></td>
+        <td>Dashboard, Pool RAMM, Governance Core, CoverEngine</td>
+      </tr>
+      <tr>
+        <td><strong>Fasi di Lancio</strong></td>
+        <td>Fase 0: Funding → Fase 1: Lancio DAPP → Fase 2: Claim</td>
+      </tr>
+      <tr>
+        <td><strong>Governance Multilivello</strong></td>
+        <td>Quorum dinamico → Deleghe → Validazione tramite WorldID</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="paragraph"><em>🔧 Questi schemi saranno allegati in formato <code>.svg</code> o <code>.pdf</code> al momento della pubblicazione e integrabili su GitHub o IPFS.</em></p>
+
+  <h3 class="section-subtitle">📝 14.3 Documentazione Normativa e Contrattuale</h3>
+  <p class="paragraph">La documentazione completa include:</p>
+  <ul>
+    <li>📄 <strong>Statuto C.I.C. Lighthouse Ltd (UK)</strong></li>
+    <li>📄 <strong>Contratto associativo DAO – Versione smart contract + testo leggibile</strong></li>
+    <li>📄 <strong>Condizioni di partecipazione al funding ($FXS)</strong></li>
+    <li>📄 <strong>Regolamento governance on-chain</strong></li>
+    <li>📄 <strong>Policy sinistri e meccanismi di copertura</strong></li>
+    <li>📄 <strong>Whitepaper completo firmato digitalmente</strong></li>
+    <li>🔗 <strong>Link IPFS e GitHub per verifica hash e versione attiva</strong></li>
+  </ul>
+  <p class="paragraph">Tutti i documenti saranno accessibili in sola lettura tramite:</p>
+  <ul>
+    <li>la DAPP ufficiale nella sezione "📁 Docs"</li>
+    <li>repository GitHub <a href="#">github.com/fidexdao/whitepaper</a></li>
+    <li>archivio decentralizzato IPFS</li>
+  </ul>
 </section>
 
 
